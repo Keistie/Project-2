@@ -6,6 +6,7 @@ public class CameraSwitch12 : MonoBehaviour
 {
     public Camera Camera11;
     public Camera Camera12;
+    public Color color12 = Color.black;
     
     
     public void Awake(){
@@ -16,6 +17,7 @@ public class CameraSwitch12 : MonoBehaviour
     public void SwitchCamera(){
         Camera11.enabled = false;
         Camera12.enabled = true;
+        Camera12.backgroundColor = color12;
     }
     public void OnTriggerEnter2D(Collider2D col) {
         if(col.CompareTag ("Player")){

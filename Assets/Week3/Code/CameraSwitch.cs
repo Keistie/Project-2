@@ -13,6 +13,7 @@ public class CameraSwitch : MonoBehaviour
     public WheelJoint2D CircleJoint1;
     public float wmotorspeed = 1500f;
     public float cmotorspeed = 5000f;
+    public Color color1 = Color.black;
     public void Awake(){
         Camera Camera0 = GameObject.Find("Camera0").GetComponent<Camera>();
         Camera Camera1 = GameObject.Find("Camera1").GetComponent<Camera>();
@@ -26,10 +27,12 @@ public class CameraSwitch : MonoBehaviour
     public void SwitchCamera(){
         Camera0.enabled = false;
         Camera1.enabled = true;
+        Camera1.backgroundColor = color1; 
     }
     public void OnTriggerEnter2D(Collider2D col) {
         if(col.CompareTag ("Player")){
             SwitchCamera();
+            col.GetComponent<SpriteRenderer>().color = new Color(Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f));
             StartCirclerb.gravityScale = 3;
             StartCircle2rb.gravityScale = 3;
             SquareJointrb.gravityScale = 1;
