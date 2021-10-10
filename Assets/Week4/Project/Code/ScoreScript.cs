@@ -15,6 +15,6 @@ public class ScoreScript : MonoBehaviour
     void Update()
     {
         //sc = Keyscore;
-        sc.text = "Score: " + Keyscore;
+        sc.text = "Key: " + Keyscore;
     }
 }

@@ -8,16 +8,19 @@ void OnTriggerEnter2D(Collider2D col)
     {
         if(col.CompareTag("OldDoor")){
             if(GetKey.GetOldKey){
+                DoorScript.Doorscore += 1;
                 Destroy (col.gameObject);
             }
          }
         if(col.CompareTag("YellowDoor")){
             if(GetKey.GetYellowKey){
+                DoorScript.Doorscore += 1;
                 Destroy (col.gameObject);
             }
         }
-        if(col.CompareTag("BlueKey")){
+        if(col.CompareTag("BlueDoor")){
             if(GetKey.GetBlueKey){
+                DoorScript.Doorscore += 1;
                 Destroy (col.gameObject);
             }
     }
