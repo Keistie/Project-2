@@ -16,6 +16,6 @@ public class DoorScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        dsc.text = "Treasure: " + Doorscore;
+        dsc.text = "Portion: " + Doorscore;
     }
 }
