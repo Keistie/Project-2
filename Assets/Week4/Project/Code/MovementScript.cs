@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PMovement : MonoBehaviour
+public class MovementScript : MonoBehaviour
 {
- public Rigidbody2D rb;
-
+    public Rigidbody2D rb;
     public float moveSpeed, jumpPower = 5.0f;
     public bool onGround;
     bool canJump = true;
@@ -21,6 +20,19 @@ public class PMovement : MonoBehaviour
         }
 
         moveX = Input.GetAxis("Horizontal");
+
+        if (Input.GetKey(KeyCode.LeftShift)){
+            moveSpeed = 10.0f;
+        }
+        else {
+            moveSpeed = 5.0f;
+        }
+        if (Input.GetKey(KeyCode.F)){
+            jumpPower = 10.0f;
+        }
+        else{
+            jumpPower = 5.0f;
+        }
 
     }
 

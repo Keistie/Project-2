@@ -13,6 +13,7 @@ TagManager:
   - OldDoor
   - YellowDoor
   - BlueDoor
+  - ClickButton
   layers:
   - Default
   - TransparentFX

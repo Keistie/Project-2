@@ -2,18 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class GetDoor : MonoBehaviour
+public class GetDoor2 : MonoBehaviour
 {
     public GameObject Blackcanva;
 
-    public string nextScene;
-void OnTriggerEnter2D(Collider2D col)
+    public string endScene1;
+    public string endScene2;
+    public string endScene3;
+    void OnTriggerEnter2D(Collider2D col)
     {
         if(col.CompareTag("OldDoor")){
-            if(GetKey.GetOldKey){
-                DoorScript.Doorscore += 1;
-                Destroy (col.gameObject);
-                SceneManager.LoadScene(nextScene);
+            if(Input.GetKey(KeyCode.E)){
+                SceneManager.LoadScene(endScene1);
                 }
 
                 /*if(DoorScript.Doorscore == 1){
@@ -32,16 +32,14 @@ void OnTriggerEnter2D(Collider2D col)
                 }*/
             }
         if(col.CompareTag("YellowDoor")){
-            if(GetKey.GetYellowKey){
-                DoorScript.Doorscore += 1;
-                Destroy (col.gameObject);
-            }
+            if(Input.GetKey(KeyCode.E)){
+                SceneManager.LoadScene(endScene2);
+                }
         }
         if(col.CompareTag("BlueDoor")){
-            if(GetKey.GetBlueKey){
-                DoorScript.Doorscore += 1;
-                Destroy (col.gameObject);
-            }
-    }
+            if(Input.GetKey(KeyCode.E)){
+                SceneManager.LoadScene(endScene3);
+                }
+        }
     } 
-}  
+}

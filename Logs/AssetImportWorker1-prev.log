@@ -9,17 +9,17 @@ D:\unity thing\2021.1.20f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker0
+AssetImportWorker1
 -projectPath
 D:/unity thing/Project 2
 -logFile
-Logs/AssetImportWorker0.log
+Logs/AssetImportWorker1.log
 -srvPort
 50217
 Successfully changed project path to: D:/unity thing/Project 2
 D:/unity thing/Project 2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 1733.94 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 123.11 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.20f1 (be552157821d)
 [Subsystems] Discovering subsystems at path D:/unity thing/2021.1.20f1/Editor/Data/Resources/UnitySubsystems
@@ -35,5 +35,5 @@ Initialize mono
 Mono path[0] = 'D:/unity thing/2021.1.20f1/Editor/Data/Managed'
 Mono path[1] = 'D:/unity thing/2021.1.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/unity thing/2021.1.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
 Begin MonoManager ReloadAssembly
