@@ -7,7 +7,7 @@ public class TriggerYDes : MonoBehaviour
    void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player")){
-            DialogueYDes.YDes.enabled = true;
+                DialogueYDes.YDes.enabled = true;
         }
     }
  

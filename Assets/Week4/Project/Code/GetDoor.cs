@@ -42,6 +42,6 @@ void OnTriggerEnter2D(Collider2D col)
                 DoorScript.Doorscore += 1;
                 Destroy (col.gameObject);
             }
-    }
+        }
     } 
 }  

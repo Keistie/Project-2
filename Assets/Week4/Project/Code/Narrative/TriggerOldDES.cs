@@ -7,7 +7,7 @@ public class TriggerOldDES : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player")){
-            DialogueOldDes.ODes.enabled = true;
+                DialogueOldDes.ODes.enabled = true;
         }
     }
  

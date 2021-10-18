@@ -8,7 +8,7 @@ public class TriggerPink : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player")){
-            DialoguePink.pinknpc.enabled = true;
+                DialoguePink.pinknpc.enabled = true;
         }
     }
  

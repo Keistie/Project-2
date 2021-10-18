@@ -7,7 +7,7 @@ public class TriggerBlue : MonoBehaviour
    void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player")){
-            DialogueBlue.bluenpc.enabled = true;
+                DialogueBlue.bluenpc.enabled = true;
         }
     }
  

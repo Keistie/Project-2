@@ -7,7 +7,7 @@ public class TriggerBDes : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player")){
-            DialogueBDes.BDes.enabled = true;
+                DialogueBDes.BDes.enabled = true;
         }
     }
  

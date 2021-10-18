@@ -12,7 +12,6 @@ public class GetDoor2 : MonoBehaviour
     void OnTriggerEnter2D(Collider2D col)
     {
         if(col.CompareTag("OldDoor")){
-            if(Input.GetKey(KeyCode.E)){
                 SceneManager.LoadScene(endScene1);
                 }
 
@@ -30,16 +29,11 @@ public class GetDoor2 : MonoBehaviour
                         SceneManager.LoadScene("Project 4");
                     }
                 }*/
-            }
         if(col.CompareTag("YellowDoor")){
-            if(Input.GetKey(KeyCode.E)){
                 SceneManager.LoadScene(endScene2);
-                }
         }
         if(col.CompareTag("BlueDoor")){
-            if(Input.GetKey(KeyCode.E)){
                 SceneManager.LoadScene(endScene3);
-                }
         }
     } 
 }

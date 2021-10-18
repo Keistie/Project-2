@@ -4106,7 +4106,7 @@ GameObject:
   - component: {fileID: 781692527}
   m_Layer: 0
   m_Name: TriggerBlue
-  m_TagString: Untagged
+  m_TagString: Interact
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6633,7 +6633,7 @@ GameObject:
   - component: {fileID: 1265147999}
   m_Layer: 0
   m_Name: TriggerYellow
-  m_TagString: Untagged
+  m_TagString: Interact
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10575,7 +10575,7 @@ GameObject:
   - component: {fileID: 1902709196}
   m_Layer: 0
   m_Name: TriggerOld
-  m_TagString: Untagged
+  m_TagString: Interact
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
