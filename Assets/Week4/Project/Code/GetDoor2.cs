@@ -4,8 +4,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GetDoor2 : MonoBehaviour
 {
-    public GameObject Blackcanva;
-
     public string endScene1;
     public string endScene2;
     public string endScene3;
@@ -33,7 +31,7 @@ public class GetDoor2 : MonoBehaviour
                 SceneManager.LoadScene(endScene2);
         }
         if(col.CompareTag("BlueDoor")){
-                SceneManager.LoadScene(endScene3);
+                SceneManager.LoadScene(endScene1);
         }
     } 
 }

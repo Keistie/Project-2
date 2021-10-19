@@ -1,14 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class DialogueRestart : MonoBehaviour
 {
-    public static Text restart;
-    // Start is called before the first frame update
+    public string level2;
+   public void restartlevel(){
+        if(Input.GetKeyDown(KeyCode.R)){
+            SceneManager.LoadScene(level2);
+        }
+    }
 
-    void Start(){
-        restart = GetComponent<Text>();
-        restart.enabled = false;
+    public void Update(){
+        restartlevel();
     }
 }

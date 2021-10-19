@@ -15,6 +15,7 @@ TagManager:
   - BlueDoor
   - ClickButton
   - Interact
+  - Portion
   layers:
   - Default
   - TransparentFX

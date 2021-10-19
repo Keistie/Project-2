@@ -10,5 +10,4 @@ public class BlackCanva : MonoBehaviour
         Blackcanva.SetActive (false);
     }
 
-
 }

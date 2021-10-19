@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Week4/Project/Projec4.2.unity
     guid: 185fac8fc76614548a31279b7e0b0eb6
+  - enabled: 1
+    path: Assets/Week4/Project/Projec4.2 1.unity
+    guid: c78e78f7c330627469ea016d528cd661
+  - enabled: 1
+    path: Assets/Week4/Project/Projec4.2 2.unity
+    guid: 19cd01e469887fb4bba44a3691959a99
+  - enabled: 1
+    path: Assets/Week4/Project/Projec4.2 3.unity
+    guid: 2bac483538796d1438b9191e447a30d0
   m_configObjects: {}
