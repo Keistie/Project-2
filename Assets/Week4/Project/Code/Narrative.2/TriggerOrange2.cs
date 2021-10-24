@@ -8,6 +8,7 @@ public class TriggerOrange2 : MonoBehaviour
     {
         if (other.CompareTag("Player")){
             DialogueOrange2.Orange2.enabled = true;
+            NBackground.Background.enabled = true;
         }
     }
  
@@ -15,6 +16,7 @@ public class TriggerOrange2 : MonoBehaviour
     {
         if (other.CompareTag("Player")){
             DialogueOrange2.Orange2.enabled = false;
+            NBackground.Background.enabled = false;;
         }
     }
 }

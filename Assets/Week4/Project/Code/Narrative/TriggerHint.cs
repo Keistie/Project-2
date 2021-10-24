@@ -8,6 +8,7 @@ public class TriggerHint : MonoBehaviour
     {
         if (other.CompareTag("Player")){
             DialogueHint.hint.enabled = true;
+            NBackground.Background.enabled = true;
         }
     }
  
@@ -15,6 +16,7 @@ public class TriggerHint : MonoBehaviour
     {
         if (other.CompareTag("Player")){
             DialogueHint.hint.enabled = false;
+            NBackground.Background.enabled = false;
         }
     }
 }

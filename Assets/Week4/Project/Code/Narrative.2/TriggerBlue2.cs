@@ -8,6 +8,7 @@ public class TriggerBlue2 : MonoBehaviour
     {
         if (other.CompareTag("Player")){
             DialogueBlue2.Blue2.enabled = true;
+            NBackground.Background.enabled = true;
         }
     }
  
@@ -15,6 +16,7 @@ public class TriggerBlue2 : MonoBehaviour
     {
         if (other.CompareTag("Player")){
             DialogueBlue2.Blue2.enabled = false;
+            NBackground.Background.enabled = false;
         }
     }
 }

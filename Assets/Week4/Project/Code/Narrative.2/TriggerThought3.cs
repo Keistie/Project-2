@@ -8,6 +8,7 @@ public class TriggerThought3 : MonoBehaviour
     {
         if (other.CompareTag("Player")){
             DialogueThought3.Thought3.enabled = true;
+            NBackground.Background.enabled = true;
         }
     }
  
@@ -15,6 +16,7 @@ public class TriggerThought3 : MonoBehaviour
     {
         if (other.CompareTag("Player")){
             DialogueThought3.Thought3.enabled = false;
+            NBackground.Background.enabled = false;
         }
     }
 }

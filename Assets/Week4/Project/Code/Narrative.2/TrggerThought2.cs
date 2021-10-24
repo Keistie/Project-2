@@ -8,6 +8,7 @@ public class TrggerThought2 : MonoBehaviour
     {
         if (other.CompareTag("Player")){
             DialogueThought2.Thought2.enabled = true;
+            NBackground.Background.enabled = true;
         }
     }
  
@@ -15,6 +16,7 @@ public class TrggerThought2 : MonoBehaviour
     {
         if (other.CompareTag("Player")){
             DialogueThought2.Thought2.enabled = false;
+            NBackground.Background.enabled = false;
         }
     }
 }

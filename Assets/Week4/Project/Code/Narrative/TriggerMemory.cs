@@ -8,6 +8,7 @@ public class TriggerMemory : MonoBehaviour
     {
         if (other.CompareTag("Player")){
             DialogueMemory.Dialoguememory.enabled = true;
+            NBackground.Background.enabled = true;
         }
     }
  
@@ -15,6 +16,7 @@ public class TriggerMemory : MonoBehaviour
     {
         if (other.CompareTag("Player")){
             DialogueMemory.Dialoguememory.enabled = false;
+            NBackground.Background.enabled = false;
         }
     }
 }

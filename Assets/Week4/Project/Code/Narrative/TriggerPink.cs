@@ -9,6 +9,7 @@ public class TriggerPink : MonoBehaviour
     {
         if (other.CompareTag("Player")){
                 DialoguePink.pinknpc.enabled = true;
+                NBackground.Background.enabled = true;
         }
     }
  
@@ -16,6 +17,7 @@ public class TriggerPink : MonoBehaviour
     {
         if (other.CompareTag("Player")){
             DialoguePink.pinknpc.enabled = false;
+            NBackground.Background.enabled = false;
         }
     }
 }

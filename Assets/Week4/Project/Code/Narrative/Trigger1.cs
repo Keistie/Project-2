@@ -10,6 +10,7 @@ public class Trigger1 : MonoBehaviour
         if (other.CompareTag("Player")){
             if(!GetKey.GetOldKey)
             Dialogue1.Dialogue.enabled = true;
+            NBackground.Background.enabled = true;
         }
     }
  
@@ -17,6 +18,7 @@ public class Trigger1 : MonoBehaviour
     {
         if (other.CompareTag("Player")){
             Dialogue1.Dialogue.enabled = false;
+            NBackground.Background.enabled = false;
         }
     }
 }

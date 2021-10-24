@@ -8,6 +8,7 @@ public class TriggerMemory4 : MonoBehaviour
     {
         if (other.CompareTag("Player")){
             DialogueMemory4.Memory4.enabled = true;
+            NBackground.Background.enabled = true;
         }
     }
  
@@ -15,6 +16,7 @@ public class TriggerMemory4 : MonoBehaviour
     {
         if (other.CompareTag("Player")){
             DialogueMemory4.Memory4.enabled = false;
+            NBackground.Background.enabled = false;
         }
     }
 }

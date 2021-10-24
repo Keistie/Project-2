@@ -8,6 +8,7 @@ public class TriggerWakeup1 : MonoBehaviour
     {
         if (other.CompareTag("Player")){
             DialogueWakeup1.Wakeup1.enabled = true;
+            NBackground.Background.enabled = true;
         }
     }
  
@@ -15,6 +16,7 @@ public class TriggerWakeup1 : MonoBehaviour
     {
         if (other.CompareTag("Player")){
             DialogueWakeup1.Wakeup1.enabled = false;
+            NBackground.Background.enabled = false;
         }
     }
 }

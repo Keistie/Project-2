@@ -8,6 +8,7 @@ public class TriggerOldDES : MonoBehaviour
     {
         if (other.CompareTag("Player")){
                 DialogueOldDes.ODes.enabled = true;
+                NBackground.Background.enabled = true;
         }
     }
  
@@ -15,6 +16,7 @@ public class TriggerOldDES : MonoBehaviour
     {
         if (other.CompareTag("Player")){
             DialogueOldDes.ODes.enabled = false;
+            NBackground.Background.enabled = false;
         }
     }
 }

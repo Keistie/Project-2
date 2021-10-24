@@ -8,6 +8,7 @@ public class TriggerBDes : MonoBehaviour
     {
         if (other.CompareTag("Player")){
                 DialogueBDes.BDes.enabled = true;
+                NBackground.Background.enabled = true;
         }
     }
  
@@ -15,6 +16,7 @@ public class TriggerBDes : MonoBehaviour
     {
         if (other.CompareTag("Player")){
             DialogueBDes.BDes.enabled = false;
+            NBackground.Background.enabled = false;
         }
     }
 }
