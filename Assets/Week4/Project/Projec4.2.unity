@@ -208,7 +208,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'The doors are up there....
 
-    Hope I can really escape this time...'
+    Seems like I don''t have other choices.'
 --- !u!222 &7809112
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2744,9 +2744,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '...Where am I?
+  m_Text: '....Where am I...
 
-    ...this is the same place....or not..'
+    Wait..WHY AM I A RECTANGLE??'
 --- !u!222 &338805057
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3616,6 +3616,7 @@ GameObject:
   - component: {fileID: 431543057}
   - component: {fileID: 431543059}
   - component: {fileID: 431543058}
+  - component: {fileID: 431543060}
   m_Layer: 5
   m_Name: NarrativeBackground
   m_TagString: Untagged
@@ -3680,6 +3681,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 431543056}
   m_CullTransparentMesh: 1
+--- !u!114 &431543060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431543056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 423a8aa2eb6c5ed4a9b36cbecd1a820a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &481761032
 GameObject:
   m_ObjectHideFlags: 0
@@ -4156,7 +4169,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 552362026}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 24.36, y: 21.09, z: 633.6165}
+  m_LocalPosition: {x: 9.9, y: 12.5, z: 633.6165}
   m_LocalScale: {x: 2.6369848, y: 1.7511883, z: 1}
   m_Children: []
   m_Father: {fileID: 30469608}
@@ -6803,8 +6816,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 24.675974, y: 231}
-  m_SizeDelta: {x: 275.6004, y: 91.9287}
+  m_AnchoredPosition: {x: 18.396, y: 242.52}
+  m_SizeDelta: {x: 306.6065, y: 99.524}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &949542065
 MonoBehaviour:
@@ -6851,9 +6864,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'What''s that message?
+  m_Text: 'What it means by wake up...?
 
-    "Wake up"? What it means?'
+    What happened to me....
+
+    .....Who....'
 --- !u!222 &949542067
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10919,8 +10934,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 29.287394, y: 227.2024}
-  m_SizeDelta: {x: 284.8232, y: 99.5239}
+  m_AnchoredPosition: {x: 38.138, y: 228.41}
+  m_SizeDelta: {x: 306.5924, y: 139.6252}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1430125909
 MonoBehaviour:
@@ -10967,10 +10982,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Thank you....Thank you so much..
+  m_Text: 'Thank you....I know you can get that key
 
-    There''s something down there, might
-    be useful...'
+    But why you become a ......
+
+    Portions
+    are down there. They can protect you.'
 --- !u!222 &1430125911
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12575,8 +12592,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 24.675974, y: 231}
-  m_SizeDelta: {x: 275.6004, y: 91.9287}
+  m_AnchoredPosition: {x: 30.962011, y: 235.48}
+  m_SizeDelta: {x: 285.54, y: 106.44}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1702322249
 MonoBehaviour:
@@ -12625,8 +12642,10 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'What are thouse thing? What is this place?
 
-    There are more...I gotta
-    be careful.'
+    These things seem dangerous..Don''t
+    touch them
+
+    There are more...I gotta be careful.'
 --- !u!222 &1702322251
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12802,8 +12821,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 24.675974, y: 231}
-  m_SizeDelta: {x: 275.6004, y: 91.9287}
+  m_AnchoredPosition: {x: 29.287, y: 240.5}
+  m_SizeDelta: {x: 288.89, y: 110.92}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1703858282
 MonoBehaviour:
@@ -12852,7 +12871,10 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'What is this place?
 
-    Where is..."She"?'
+    Where is..."She"?
+
+    I really should leave
+    this place ASAP.'
 --- !u!222 &1703858284
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14268,7 +14290,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 29.287394, y: 227.2024}
+  m_AnchoredPosition: {x: 30, y: 243.76}
   m_SizeDelta: {x: 284.8232, y: 99.5239}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1875724197
@@ -14304,10 +14326,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Thank you...Thank you...
+  m_Text: 'Thank you...Thank you for saving me
 
-    The exit is ahead...But there''s a riddle
-    I heard...'
+    Why you are a rectangle....What
+    happened
+
+    The exit is ahead...But there''s a riddle I heard...'
 --- !u!222 &1875724198
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14856,8 +14880,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 29.287394, y: 227.2024}
-  m_SizeDelta: {x: 284.8232, y: 99.5239}
+  m_AnchoredPosition: {x: 33, y: 245}
+  m_SizeDelta: {x: 285.54, y: 106.44}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1948249118
 MonoBehaviour:
@@ -14904,9 +14928,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'The question is "Greedy"....
+  m_Text: 'The question is just "Greedy"....
 
-    ...What does that even mean?'
+    ...What does that even mean?
+
+    ....Wait,
+    who are you?'
 --- !u!222 &1948249120
 CanvasRenderer:
   m_ObjectHideFlags: 0

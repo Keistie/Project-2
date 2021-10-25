@@ -9310,7 +9310,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7771429, y: 1}
+    m_SensorSize: {x: 1.7777778, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -11406,8 +11406,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8, y: -28.73}
-  m_SizeDelta: {x: 382.0445, y: 183.5889}
+  m_AnchoredPosition: {x: 0.000025749, y: 54.643}
+  m_SizeDelta: {x: 441.4265, y: 260.7856}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1680497858
 MonoBehaviour:
@@ -11442,8 +11442,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: b18c234f6d29883418a01f364886d511, type: 3}
-    m_FontSize: 38
+    m_Font: {fileID: 12800000, guid: 3caed29d135010642ab6681457be1848, type: 3}
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -11458,8 +11458,11 @@ MonoBehaviour:
 
     You are stuck here forever....
 
-    Go back
-    and Try again.'
+    She''s
+    coming.
+
+
+    Go back and Try again.'
 --- !u!222 &1680497860
 CanvasRenderer:
   m_ObjectHideFlags: 0

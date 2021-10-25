@@ -17,7 +17,7 @@ public class Gethurt : MonoBehaviour
         }
     }
 
-    void update(){
+    public void update(){
         checkhealth();
     }
 
