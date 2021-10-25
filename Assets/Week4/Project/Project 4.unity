@@ -208,7 +208,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'I can hear someone is coming....
 
-    Maybe I need to leave right now...'
+    I probably need to leave right now...'
 --- !u!222 &7809112
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -474,7 +474,7 @@ Transform:
   - {fileID: 1265147998}
   - {fileID: 1902709195}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &54972299
 GameObject:
@@ -1801,6 +1801,7 @@ Transform:
   - {fileID: 1342486599}
   - {fileID: 847078970}
   - {fileID: 1074224493}
+  - {fileID: 1098764102}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3611,7 +3612,7 @@ Transform:
   m_LocalScale: {x: 65.10528, y: 41.72264, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &722344665
 GameObject:
@@ -4882,7 +4883,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Where am I?
 
-    Why am I a rectangle?'
+    Why I can''t control myself?'
 --- !u!222 &949542067
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5651,7 +5652,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1074224492
 GameObject:
@@ -5844,7 +5845,7 @@ Transform:
   m_LocalScale: {x: 3.3286333, y: 3.6555202, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1095889954
 GameObject:
@@ -6067,8 +6068,8 @@ RectTransform:
   - {fileID: 1680497857}
   - {fileID: 764336026}
   - {fileID: 1023477125}
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 420859582}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7279,7 +7280,7 @@ Transform:
   m_LocalScale: {x: 5.0263553, y: 4.178852, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1296371177
 Animator:
@@ -8477,8 +8478,8 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'She will back in any minute...
 
-    Please...Remember the name...And help
-    me...'
+    Please...Remember the names...And
+    help me...'
 --- !u!222 &1430125911
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10419,7 +10420,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2b3a4a7cba0eeaa4390778e0db2a0fd7, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.72
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -10684,12 +10685,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '....So she turned you to a rectangle....
+  m_Text: 'Wait. How can you move? She didn''t do that?
 
-    At least you can move,
+    Please help me. Get
+    the keys please.
 
-    Find
-    the keys, and save us....Please'
+    That''s the only way to save us. Please....'
 --- !u!222 &1875724198
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11361,8 +11362,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.6115, y: 209}
-  m_SizeDelta: {x: 284.8232, y: 99.5239}
+  m_AnchoredPosition: {x: 2.6871, y: 223.07}
+  m_SizeDelta: {x: 292.9746, y: 107.79}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1948249118
 MonoBehaviour:
@@ -11409,10 +11410,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'There are portions behind color doors.
+  m_Text: 'There are portions behind these color doors.
 
-    Please get them....when she''s
-    not here....'
+    But you need the right
+    key for each door.
+
+    Please get them....when she''s not here....'
 --- !u!222 &1948249120
 CanvasRenderer:
   m_ObjectHideFlags: 0
