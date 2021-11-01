@@ -16,6 +16,7 @@ TagManager:
   - ClickButton
   - Interact
   - Portion
+  - GridSystem
   layers:
   - Default
   - TransparentFX
