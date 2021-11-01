@@ -2,8 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class MovementScript : MonoBehaviour
 {
+    public AudioSource audioSource;
+    public AudioClip audioClip;
+
     public Rigidbody2D rb;
     public float moveSpeed, jumpPower = 5.0f;
     public bool onGround;
@@ -12,6 +16,7 @@ public class MovementScript : MonoBehaviour
     // Start is called before the first frame update
     private void Awake(){
         rb = GetComponent<Rigidbody2D>(); 
+        audioSource = GetComponent<AudioSource>();
     }
 
     void PlayerControls(){
@@ -35,11 +40,13 @@ public class MovementScript : MonoBehaviour
         }
 
     }
-
+    void Playkey() {
+        audioSource.PlayOneShot(audioClip);
+    }
     void Jump(){
         if(!onGround)
             return;
-        
+        Playkey();
         rb.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
         onGround = false;
 
