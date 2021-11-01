@@ -22,15 +22,17 @@ public class PathSystem : MonoBehaviour
 
 
     void Start() {
-        if(seedType == SeedType.Random) {
-            random = new System.Random();
-        }
-        else if(seedType == SeedType.Custom){
-            random = new System.Random(seed);
-        }
 
     }
 
+    void SetSeed() {
+        if (seedType == SeedType.Random) {
+            random = new System.Random();
+        }
+        else if (seedType == SeedType.Custom) {
+            random = new System.Random(seed);
+        }
+    }
     void CreatePath() {
         gridCellList.Clear();
         //Vector2 currentPosition = new Vector2 (-15.0f, -9.0f);
